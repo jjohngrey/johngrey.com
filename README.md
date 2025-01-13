@@ -1,4 +1,4 @@
-# jjohngrey.com
+# johngrey.com
 
 # 🛠️ Personal Portfolio in the making... 🛠️
 
