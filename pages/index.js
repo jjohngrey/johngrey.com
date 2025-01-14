@@ -17,8 +17,6 @@ export default function Home() {
               <a href="https://nextjs.org">John Grey!</a>
             </h1>
           </div>
-
-          <img src="/images/headshot.jpg" height={200} />
         </div>
 
         <p className={styles.description}>I am a software developer.</p>
