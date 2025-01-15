@@ -1,21 +1,23 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
   background-color: white;
   color: black;
 }
 
+/* Hero */
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin: 50px;
-  width: 600px;
+  margin: 1.5rem;
+  width: 750px;
 }
 
 .hero img {
@@ -44,15 +46,52 @@
   text-align: center;
 }
 
-.title,
-.description {
-  text-align: center;
-}
+/* Description */
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: left;
+  width: 750px;
+  margin: 1.5rem;
 }
+
+.description a {
+  text-decoration: none;
+  color: black;
+}
+
+.description a:hover,
+.description a:focus,
+.description a:active {
+  text-decoration: underline;
+  color: #0070f3;
+}
+
+/* Contacts */
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 400px;
+
+  list-style-type: none;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover,
+.contact a:focus,
+.contact a:active {
+  text-decoration: underline;
+  color: #0070f3;
+}
+
 
 .grid {
   display: flex;
@@ -61,7 +100,7 @@
   flex-wrap: wrap;
 
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 0.5rem;
 }
 
 .card {
@@ -94,10 +133,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
 }
 
 @media (max-width: 600px) {
