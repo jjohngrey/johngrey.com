@@ -54,6 +54,37 @@
   color: #0070f3;
 }
 
+/* Experience */
+
+.experience h2 {
+  font-size: 42px;
+  position: relative;
+  
+}
+
+.experience h3 {
+  margin-top: -1.5rem;
+  margin-bottom: -1rem;
+}
+
+.experience h4 {
+  color: grey;
+}
+
+.experience h2:hover,
+.experience h2:focus,
+.experience h2:active {
+  text-decoration: underline;
+  color: #0070f3;
+}
+
+/* Company */
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
 /* Hero */
 .hero {
   display: flex;
