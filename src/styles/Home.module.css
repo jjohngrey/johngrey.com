@@ -8,6 +8,22 @@
   color: black;
 }
 
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100vw;
+
+  background-color: white;
+  color: black;
+}
+
+.children {
+  width: 800px;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -17,9 +33,23 @@
   margin: 20px;
 }
 
-.header a:hover,
-.header a:focus,
-.header a:active {
+.header :hover,
+.header :focus,
+.header :active {
+  text-decoration: underline;
+  color: #0070f3;
+}
+
+/* Section */
+
+.section h1 {
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.section h1:hover,
+.section h1:focus,
+.section h1:active {
   text-decoration: underline;
   color: #0070f3;
 }
@@ -54,10 +84,6 @@
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
-}
-
-.title {
-  text-align: center;
 }
 
 /* Description */

@@ -18,7 +18,7 @@ export default function Home() {
           <div>
             <h1 className={styles.title}>👋 Hi! I am</h1>
             <h1 className={styles.title}>
-              <a href="https://nextjs.org">John Grey!</a>
+              <a href="https://www.linkedin.com/in/john-grey">John Grey!</a>
             </h1>
           </div>
           <Image
@@ -71,32 +71,6 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
       `}</style>
 

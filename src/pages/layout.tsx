@@ -6,13 +6,13 @@ import Header from "../components/header";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <div>
       <Header />
-      <div className={styles.container}>
-        <main>{children}</main>
-      </div>
+      <div className={styles.layout}>
+        <main className={styles.children}>{children}</main>
+       </div>
       <Contact />
-    </>
+    </div>
   );
 };
 
