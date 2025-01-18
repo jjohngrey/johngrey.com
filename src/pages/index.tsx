@@ -30,36 +30,36 @@ export default function Home() {
         </div>
 
         <p className={styles.description}>
-          I am a software engineer, pho connoisseur, and occasional runner. I'm
+          I am a software engineer, pho connoisseur, and occasional runner 🏃. I'm
           currently studying{" "}
           <a href="https://mybcom.sauder.ubc.ca/bucs">
-            Business and Computer Science
+          Business and Computer Science
           </a>{" "}
           at the{" "}
-          <a href="https://www.ubc.ca/">University of British Columbia</a>. I
+          <a href="https://www.ubc.ca/">🎓 University of British Columbia</a>. I
           share my experiences, projects, learnings and personal thoughts on
           here. Feel free to take a look. 😊
         </p>
 
         <div className={styles.grid}>
           <Link href="/experiences/page" className={styles.card}>
-            <h3>Experiences &rarr;</h3>
-            <p>Prev @ Government of Canada, Department of National Defense</p>
+            <h3>💼 Experiences &rarr;</h3>
+            <p>Prev @ Government of Canada ✈️, Department of National Defense</p>
           </Link>
 
           <Link href="/projects/page" className={styles.card}>
-            <h3>Projects &rarr;</h3>
-            <p>Feat. Stock Market Simulation, hackathon projects and more!</p>
+            <h3>🛠️ Projects &rarr;</h3>
+            <p>Feat. Stock Market Simulation 📈, hackathon projects and more!</p>
           </Link>
 
           <Link href="/blog/page" className={styles.card}>
-            <h3>Blog &rarr;</h3>
-            <p>Thoughts on career, life and everything in between</p>
+            <h3>🖋️ Blog &rarr;</h3>
+            <p>Thoughts on career, life and everything in between 📖</p>
           </Link>
 
           <Link href="/life/page" className={styles.card}>
-            <h3>Life &rarr;</h3>
-            <p>Learn about my hobbies, interests and current pursuits</p>
+            <h3>🌱 Life &rarr;</h3>
+            <p>Learn about my hobbies, interests and current pursuits 🚀</p>
           </Link>
         </div>
       </main>
