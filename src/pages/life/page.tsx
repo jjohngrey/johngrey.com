@@ -1,10 +1,14 @@
 import React from "react";
 
+import Section from "@/components/section";
+import Experience from "@/components/experience";
+
 
 export default function Life() {
     return (
         <div>
-            <h1>Life</h1>
+            <Section title="Life"/>
+            <Experience />
         </div>
     )
 }
