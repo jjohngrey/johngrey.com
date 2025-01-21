@@ -9,8 +9,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     <div>
       <Header />
       <div className={styles.layout}>
-        <main className={styles.children}>{children}</main>
-       </div>
+          <main className={styles.children}>{children}</main>
+      </div>
       <Contact />
     </div>
   );

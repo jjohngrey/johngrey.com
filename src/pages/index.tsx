@@ -25,72 +25,70 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <body>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-ND5SFH99"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-ND5SFH99"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        ></iframe>
+      </noscript>
 
-        <main>
-          <div className={styles.hero}>
-            <div>
-              <h1 className={styles.title}>👋 Hi! I am</h1>
-              <h1 className={styles.title}>
-                <a href="https://www.linkedin.com/in/john-grey">John Grey!</a>
-              </h1>
-            </div>
-            <Image
-              src="/images/headshot.jpg"
-              alt="headshot"
-              height={300}
-              width={300}
-            />
+      <main>
+        <div className={styles.hero}>
+          <div>
+            <h1 className={styles.title}>👋 Hi! I am</h1>
+            <h1 className={styles.title}>
+              <a href="https://www.linkedin.com/in/john-grey">John Grey!</a>
+            </h1>
           </div>
+          <Image
+            src="/images/headshot.jpg"
+            alt="headshot"
+            height={300}
+            width={300}
+          />
+        </div>
 
-          <p className={styles.description}>
-            I am a software engineer, pho connoisseur, and occasional runner 🏃.
-            I'm currently studying{" "}
-            <a href="https://mybcom.sauder.ubc.ca/bucs">
-              Business and Computer Science
-            </a>{" "}
-            at the{" "}
-            <a href="https://www.ubc.ca/">🎓 University of British Columbia</a>.
-            I share my experiences, projects, learnings and personal thoughts on
-            here. Feel free to take a look. 😊
-          </p>
+        <p className={styles.description}>
+          I am a software engineer, pho connoisseur, and occasional runner 🏃.
+          I'm currently studying{" "}
+          <a href="https://mybcom.sauder.ubc.ca/bucs">
+            Business and Computer Science
+          </a>{" "}
+          at the{" "}
+          <a href="https://www.ubc.ca/">🎓 University of British Columbia</a>.
+          I share my experiences, projects, learnings and personal thoughts on
+          here. Feel free to take a look. 😊
+        </p>
 
-          <div className={styles.grid}>
-            <Link href="/experiences/page" className={styles.card}>
-              <h3>💼 Experiences &rarr;</h3>
-              <p>
-                Prev @ Government of Canada ✈️, Department of National Defense
-              </p>
-            </Link>
+        <div className={styles.grid}>
+          <Link href="/experiences/page" className={styles.card}>
+            <h3>💼 Experiences &rarr;</h3>
+            <p>
+              Prev @ Government of Canada ✈️, Department of National Defense
+            </p>
+          </Link>
 
-            <Link href="/projects/page" className={styles.card}>
-              <h3>🛠️ Projects &rarr;</h3>
-              <p>
-                Feat. Stock Market Simulation 📈, hackathon projects and more!
-              </p>
-            </Link>
+          <Link href="/projects/page" className={styles.card}>
+            <h3>🛠️ Projects &rarr;</h3>
+            <p>
+              Feat. Stock Market Simulation 📈, hackathon projects and more!
+            </p>
+          </Link>
 
-            <Link href="/blog/page" className={styles.card}>
-              <h3>🖋️ Blog &rarr;</h3>
-              <p>Thoughts on career, life and everything in between 📖</p>
-            </Link>
+          <Link href="/blog/page" className={styles.card}>
+            <h3>🖋️ Blog &rarr;</h3>
+            <p>Thoughts on career, life and everything in between 📖</p>
+          </Link>
 
-            <Link href="/life/page" className={styles.card}>
-              <h3>🌱 Life &rarr;</h3>
-              <p>Learn about my hobbies, interests and current pursuits 🚀</p>
-            </Link>
-          </div>
-        </main>
-      </body>
+          <Link href="/life/page" className={styles.card}>
+            <h3>🌱 Life &rarr;</h3>
+            <p>Learn about my hobbies, interests and current pursuits 🚀</p>
+          </Link>
+        </div>
+      </main>
 
       <style jsx>{`
         main {

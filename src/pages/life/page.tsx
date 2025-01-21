@@ -8,7 +8,6 @@ export default function Life() {
     return (
         <div>
             <Section title="Life"/>
-            <Experience />
         </div>
     )
 }

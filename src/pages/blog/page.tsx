@@ -1,10 +1,11 @@
 import React from "react";
 
+import Section from "@/components/section";
 
 export default function Blog() {
     return (
         <div>
-            <h1>Blog</h1>
+            <Section title="Blog" />
         </div>
     )
 }
