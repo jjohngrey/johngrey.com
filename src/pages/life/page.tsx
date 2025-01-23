@@ -8,6 +8,7 @@ export default function Life() {
     return (
         <div>
             <Section title="Life"/>
+            <h1 style={{display: "flex", justifyContent: "center", fontSize: "60px"}}>Work in Progress 🛠️</h1>
         </div>
     )
 }
