@@ -12,8 +12,8 @@ export default function Experience(props) {
           <Image
             src={props.imageLink}
             alt="company-log"
-            height={60}
-            width={60}
+            height={40}
+            width={40}
           />
           <Link href={props.companyLink}>
             <h2>{props.company}</h2>
@@ -21,17 +21,16 @@ export default function Experience(props) {
         </div>
       </div>
 
-      <h3>{props.position}</h3>
-      <h4>{props.date}</h4>
+      <h3>{props.position}, {props.date}</h3>
       <p>
         {props.description}
       </p>
 
-      <ul>
+      {/* <ul>
         {props.bulletpoints.map((bullet) => (
           <li>{bullet}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }

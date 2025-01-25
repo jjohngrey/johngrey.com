@@ -10,7 +10,9 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["src/components/*"],
-      "@/pages/*": ["src/pages/*"]
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/public/*": ["public/*"],
     },
     "skipLibCheck": true,
     "strict": false,

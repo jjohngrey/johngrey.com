@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog/page": "pages/blog/page.js",
-  "/": "pages/index.js",
-  "/life/page": "pages/life/page.js"
+  "/experiences/page": "pages/experiences/page.js",
+  "/experiences/education": "pages/experiences/education.js",
+  "/experiences/leadership": "pages/experiences/leadership.js",
+  "/experiences/resume": "pages/experiences/resume.js"
 }
