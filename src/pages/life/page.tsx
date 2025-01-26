@@ -1,5 +1,4 @@
 import React from "react";
-import div from "next/div";
 
 import Section from "@/components/section";
 import Experience from "@/components/experience";
