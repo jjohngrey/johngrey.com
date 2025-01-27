@@ -5,6 +5,7 @@ import Link from "next/link";
 import Section from "@/components/section";
 import Experience from "@/components/experience";
 import styles from "@/styles/Home.module.css";
+import ExperiencesNav from "@/components/experiencesNav";
 
 export default function Education() {
   // const itojt = [
@@ -28,17 +29,7 @@ export default function Education() {
   return (
     <div>
       <div className={styles.container}>
-        <ul className={styles.experiences}>
-          <li>
-            <Link href="/experiences/page">Work</Link>
-          </li>
-          <li>
-            <Link href="/experiences/leadership">Leadership</Link>
-          </li>
-          <li>
-            <Link href="/experiences/education">Education</Link>
-          </li>
-        </ul>
+        <ExperiencesNav />
       </div>
       <Section title="Education" />
       <Experience
@@ -46,8 +37,8 @@ export default function Education() {
         company="University of British Columbia"
         companyLink="https://www.ubc.ca/"
         position="Business and Computer Science Combined Major"
-        date=""
-        description=""
+        date="Expected Graduation Spring 2027"
+        description="Activities: Partnerships Director @ UBC BizTech (2024-2025), Spark Orientation Leader (2024)"
       />
     </div>
   );

@@ -5,6 +5,7 @@ import Link from "next/link";
 import Section from "@/components/section";
 import Experience from "@/components/experience";
 import styles from "@/styles/Home.module.css";
+import ExperiencesNav from "@/components/experiencesNav";
 
 export default function Leadership() {
   // const itojt = [
@@ -28,17 +29,7 @@ export default function Leadership() {
   return (
     <div>
       <div className={styles.container}>
-        <ul className={styles.experiences}>
-          <li>
-            <Link href="/experiences/page">Work</Link>
-          </li>
-          <li>
-            <Link href="/experiences/leadership">Leadership</Link>
-          </li>
-          <li>
-            <Link href="/experiences/education">Education</Link>
-          </li>
-        </ul>
+      <ExperiencesNav />
       </div>
       <Section title="Leadership" />
       <Experience
@@ -46,7 +37,7 @@ export default function Leadership() {
         company="BUCS Community Team"
         companyLink=""
         position="Co-Chair"
-        date="APR 2024 - APR 2025"
+        date="April 2024 - Present"
         description="I helped create events to engage over 400 students in the Business and Computer Science program. Our initiatives include hackathons, socials, career fairs and our yearly mentorship program."
       />
     </div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import Section from "@/components/section";
 import Experience from "@/components/experience";
 import styles from "@/styles/Home.module.css";
+import ExperiencesNav from "@/components/experiencesNav";
 
 export default function Experiences() {
   // const itojt = [
@@ -28,20 +29,7 @@ export default function Experiences() {
   return (
     <div>
       <div className={styles.container}>
-        <ul className={styles.experiences}>
-          <li>
-            <Link href="/experiences/page">Work</Link>
-          </li>
-          <li>
-            <Link href="/experiences/leadership">Leadership</Link>
-          </li>
-          <li>
-            <Link href="/experiences/education">Education</Link>
-          </li>
-          {/* <li>
-          <Link href="/experiences/resume">Resume</Link> 
-          </li> */}
-        </ul>
+        <ExperiencesNav />
       </div>
       <Section title="Work" />
       <Experience
@@ -49,7 +37,7 @@ export default function Experiences() {
         company="Biomedical Engineering Team"
         companyLink=""
         position="Fullstack Developer"
-        date="MAR 2024 - PRESENT"
+        date="March 2024 - Present"
         description="I proposed and led the redesign and help build the website from scratch."
       />
       <Experience
@@ -57,7 +45,7 @@ export default function Experiences() {
         company="Government of Canada"
         companyLink="https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/cadets/summer-training/staff-cadet.html#toc4"
         position="Informational Technology Intern"
-        date="JUN 2022 - AUG 2022"
+        date="Summer 2022"
         description="I was chosen as 1 out of 6 cadets in all of Canada to 
         work with technologies in Quebec to
         enhance the cadet experience."

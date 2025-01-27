@@ -3,7 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/experiences/page": "pages/experiences/page.js",
-  "/experiences/education": "pages/experiences/education.js",
-  "/experiences/leadership": "pages/experiences/leadership.js",
-  "/experiences/resume": "pages/experiences/resume.js"
+  "/projects/page": "pages/projects/page.js",
+  "/experiences/education": "pages/experiences/education.js"
 }
