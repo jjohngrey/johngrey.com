@@ -1,11 +1,29 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Home.module.css";
+
+import { useLocation } from "react-router-dom";
+import { initGA, logPageView } from "../utils/analytics";
 
 import Link from "next/link";
 import Image from "next/image";
 
+const TrackPageViews = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    logPageView(location.pathname); // Log page views on route change
+  }, [location]);
+
+  return null;
+};
+
+
 export default function Home() {
+  useEffect(() => {
+    initGA(); // Initialize GA once
+  }, []);
+  
   return (
     <div>
       <Head>

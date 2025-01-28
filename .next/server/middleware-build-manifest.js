@@ -24,21 +24,6 @@ self.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/experiences/education": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/experiences/education.js"
-    ],
-    "/experiences/leadership": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/experiences/leadership.js"
-    ],
-    "/experiences/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/experiences/page.js"
     ]
   },
   "ampFirstPages": []
