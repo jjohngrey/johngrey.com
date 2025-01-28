@@ -77,6 +77,11 @@
   margin: 0px 10px 0px 10px;
 }
 
+.selected {
+  color: #0070f3;
+  font-weight: 600;
+}
+
 .experience {
   margin: 1rem;
   flex-basis: 45%;
